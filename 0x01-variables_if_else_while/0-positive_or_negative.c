@@ -1,20 +1,28 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
-/* Randomly generate numbers and test whether they are positive or negative
-*/
+/**
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 
-int main(void)
-{
-	int num;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+int main() {
+    srand(time(NULL));
+    int num = rand() - RAND_MAX / 3;  // Variable declaration and assignment in one line
 
-	num > 0 ? printf("%d is positive", num) :
-    	num < 0 ? printf("%d is negative", num) :
-    	printf("%d is zero", num);
-	
-	return (0);
+    if (num > 0) 
+    {
+        printf("%d is positive", num);
+    } else if (num < 0) 
+    {
+        printf("%d is negative", num);
+    } else 
+    {
+        printf("%d is zero", num);
+    }
+
+    return 0;
 }
