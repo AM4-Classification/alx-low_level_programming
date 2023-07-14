@@ -4,7 +4,9 @@
 
 int main() {
     srand(time(NULL));
-    int num = rand() - RAND_MAX / 3;
+    int num;
+    
+    num= rand() - RAND_MAX / 3;
     
     num > 0 ? printf("%d is positive", num) :
     num < 0 ? printf("%d is negative", num) :
