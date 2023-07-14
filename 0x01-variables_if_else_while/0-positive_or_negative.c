@@ -11,7 +11,8 @@
 
 int main() {
     srand(time(NULL));
-    int num = rand() - RAND_MAX / 3;  // Variable declaration and assignment in one line
+    int num;
+    num = rand() - RAND_MAX / 3;  // Variable declaration and assignment in one line
 
     if (num > 0) 
     {
