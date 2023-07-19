@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mait.h"
 /*
 *main: print each char of _putchar and end with a new line
 *Return: 0
@@ -15,4 +15,4 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 return (0);
-} 
+}
