@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /*
 *main: print each char of _putchar and end with a new line
 *Return: 0
