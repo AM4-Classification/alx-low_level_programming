@@ -3,7 +3,6 @@
 *main: print each char of _putchar and end with a new line
 *Return: 0
 */
-
 int main(void)
 {
 _putchar('_');
