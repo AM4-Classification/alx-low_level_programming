@@ -7,13 +7,15 @@
  * @s: The string to evaluate.
  * Return: The number of words.
  */
-int count_word(char *s) {
+int count_word(char *s)
+{
   int flag, char_count, word_count;
 
   flag = 0;
   word_count = 0;
 
-  for (char_count = 0; s[char_count] != '\0'; char_count++) {
+  for (char_count = 0; s[char_count] != '\0'; char_count++ 
+  {
     if (s[char_count] == ' ')
       flag = 0;
     else if (flag == 0) {
@@ -30,7 +32,8 @@ int count_word(char *s) {
  * @str: The string to split.
  * Return: Pointer to an array of strings (Success) or NULL (Error).
  */
-char ** strtow(char *str) {
+char ** strtow(char *str)
+{
   char **word_matrix, *tmp;
   int i, k = 0, len = 0, word_count, char_count = 0, start, end;
 
