@@ -46,7 +46,7 @@ size_t looped_listint_len(const listint_t *head)
 		}
 
 		tortoise_pt = tortoise_pt->next;
-		hare = (hare_pt->next)->next;
+		hare_pt = (hare_pt->next)->next;
 	}
 
 	return (0);
