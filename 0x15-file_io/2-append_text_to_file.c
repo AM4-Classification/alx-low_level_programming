@@ -5,12 +5,13 @@
  * @filename: A pointer to the name of the file to be created.
  * @text_content: A pointer to a string to be written to the file.
  *
+ * append_text_to_file - add to file
  * Return: If the function fails, it returns -1.
  * Otherwise, it returns 1.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int o, w, len = 0;
+	int len = 0, w, o;
 
 	if (filename == NULL)
 		return (-1);
