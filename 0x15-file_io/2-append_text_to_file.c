@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
+ * append_text_to_file - Appends text to the end of a file
  * create_file - Creates a file.
  * @filename: A pointer to the name of the file to be created.
  * @text_content: A pointer to a string to be written to the file.
  *
- * append_text_to_file - add to file
  * Return: If the function fails, it returns -1.
  * Otherwise, it returns 1.
  */
