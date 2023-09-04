@@ -6,7 +6,7 @@
  * @filename: name of text file
  * @num_letters: num of letters to be read
  * Return: bytes_written -  actual number of bytes read and printed
- * 	     else return 0 when function fails or filename is NULL
+ * else return 0 when function fails or filename is NULL
  */
 ssize_t read_textfile(const char *filename, size_t num_letters)
 {
